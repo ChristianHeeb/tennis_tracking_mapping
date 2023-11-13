@@ -1,5 +1,3 @@
-# Code Ideas from tutorial: https://www.youtube.com/watch?v=O3b8lVF93jU&list=PL9kP7DArSEpeXavXusoRckIYr102raPu8&index=1&ab_channel=Pysource
-
 import cv2
 import csv
 from tracker import *
