@@ -14,7 +14,7 @@ with open("object_positions.csv", "w", newline="") as csvfile:
     # Write the header
     csvwriter.writerow(["Frame", "ID", "X", "Y", "W", "H"])
 
-cap = cv2.VideoCapture("/Users/christianheeb/Desktop/tennis_tracking_mapping/99_pictures_videos/tennis_match2.mp4")
+cap = cv2.VideoCapture("99_pictures_videos/tennis_match2.mp4")
 
 # Object detection from Stable camera
 object_detector = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=100)
